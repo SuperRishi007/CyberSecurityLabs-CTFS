@@ -69,7 +69,7 @@ Vhosts
 
 ### Website features / notes
 
-![image.png](image.png)
+![image.png](images/image.png)
 
 - To-Do List
     - Enumerate what Silverpeas is
