@@ -1,6 +1,6 @@
 # You Got Mail (THM)
 
-#**Overview**
+# **Overview**
 - The 'You Got Mail' lab focused on penetration testing a vulnerable mail server, replicating real-world attack scenarios to uncover security flaws. Through network enumeration, credential brute-forcing, phishing exploitation, and post-exploitation techniques, I successfully gained unauthorized access, demonstrating key offensive security skills. Leveraging tools like Nmap, Hydra, Metasploit, and Hashcat, I explored SMTP authentication vulnerabilities, bypassed login security, and escalated privileges to control the target system. This lab reinforced the importance of email security, access control, and proactive defense measures against real-world cyber threats.
 
 # Scope Details
