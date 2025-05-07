@@ -91,7 +91,7 @@ SCAN(V=7.95%E=4%D=5/3%OT=25%CT=%CU=33817%PV=Y%DS=4%DC=T%G=N%TM=6816D37D%P=x86_64
 
 There was nothing of interest on the website other than this ‘team’ list.
 
-![image.png](image.png)
+![images/image.png](images/image.png)
 
 Username Enumeration. 
 
@@ -148,7 +148,7 @@ cewl https://brownbrick.co --lowercase > custom_pass.txt
 
 User Creds brute forced. 
 
-![image.png](image%201.png)
+![images/image.png](images/image%201.png)
 
 ### Post-Credentials - Trying to get into system using the Creds found
 
@@ -182,7 +182,7 @@ session setup failed: NT_STATUS_LOGON_FAILURE
 
 since none of the above worked tried logging into the email to find information there using evolution, since the mutt client was giving me an issue. - However there were no emails to be found. 
 
-![image.png](image%202.png)
+![images/image.png](images/image%202.png)
 
 - since this is a room called ‘you got mail’ I’m thinking there may a automated system that views and clicks on emails including their attachments. Thus trying phishing emails now to get a possible reverse shell.
 
@@ -191,7 +191,7 @@ since none of the above worked tried logging into the email to find information 
 - I had to specify authentication for SMTP - logged in with the creds above
 - Updated the SMTP Port
 
-![image.png](image%203.png)
+![images/image.png](images/image%203.png)
 
 ```bash
 #creating the payload and stating the listner 
@@ -218,15 +218,15 @@ Server username: BRICK-MAIL\wrohit
 
 - I was able to go through the files and find how the flag! (YAY, finally!)
 
-![image.png](image%204.png)
+![images/image.png](images/image%204.png)
 
 - now that we have this, we can verify if we have admin privileges. I can see we do thus we do a hash dump and just use HashCat or John the Ripper to crack the hash.
 
-![image.png](image%205.png)
+![images/image.png](images/image%205.png)
 
 - for the last flag we need to find out the password to access the hMailServer Administrator Dashboard. We found online that the password is stored “C:\Program Files (x86)\hMailServer\Bin\”. We traverse the directory and find the file where its located.
 
-![image.png](image%206.png)
+![images/image.png](images/image%206.png)
 
 # Learning outcomes
 
