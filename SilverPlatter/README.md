@@ -73,7 +73,7 @@ Vhosts
 
 - To-Do List
     - Enumerate what Silverpeas is
-    - Username Enurmation: `scr1ptkiddy`
+    - Username Enumeration: `scr1ptkiddy`
     
 
 ## HTTP(8080)
@@ -89,11 +89,11 @@ cewl http://silverplatter.thm > passwords.txt
 
 ```
 
-- Using the password list created along with cadio we were able to find a password list that words
+- Using the password list created along with cadio we were able to find a password list that works
 
 ![image.png](images/image%201.png)
 
-- once logged in we were able to locate a new meessage on the platfrom, when we clicked the new message in the URL we saw the ID=5 message, I went through all the message and was able to locate
+- once logged in we were able to locate a new message on the platfrom, when we clicked the new message in the URL we saw the ID=5 message, I went through all the message and was able to locate
 - a possible `UserName:tim` and `Password:cm0nt!md0ntf0rg3tth!spa$$w0rdagainlol`
 
 ![(images/image.png)](images/20805e20-7c5e-4ddc-a66b-42ebdfd5ab56.png)
