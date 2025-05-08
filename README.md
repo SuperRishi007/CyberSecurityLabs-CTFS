@@ -15,13 +15,13 @@ Each folder in this repo is a self-contained lab focused on a specific concept o
 - Platform: TryHackMe  
 - Focus: Privilege escalation on a Linux machine  
 - Skills Practiced: Enumeration, Linux basics, Service enumeration, misconfiguration exploitation, local privilege escalation
-- Tools Used: `linpeas`, `nmap`, `netcat`, `sudo`, `scp`
+- Tools Used: `linpeas`, `nmap`, `netcat', 'caido'
 
 ### 📁 [You Got Mail](./YouGotMail-THM)
 - Platform: TryHackMe  
 - Focus: Exploiting a misconfigured mail server  
 - Skills Practiced: SMTP enumeration, remote code execution, OSINT, password spraying, payload creation, reverse shell delivery, post-exploitation
-- Tools Used: cewl, hydra, nmap, telnet, msfvenom, Metasploit, Windows command-line tools
+- Tools Used: 'cewl', 'hydra', 'nmap', 'telnet', 'msfvenom', 'Metasploit', 'Windows command-line tools'
 
 - *(More labs coming soon as I continue learning!)*
 
