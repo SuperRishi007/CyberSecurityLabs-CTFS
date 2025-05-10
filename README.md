@@ -23,7 +23,7 @@ Each folder in this repo is a self-contained lab focused on a specific concept o
 - Skills Practiced: SMTP enumeration, remote code execution, OSINT, password spraying, payload creation, reverse shell delivery, post-exploitation
 - Tools Used: `cewl`, `hydra`, `nmap`, `telnet`, `msfvenom`, `Metasploit`, `Windows command-line tools`
 
-###📁 **[Pyrat](./Pyrat)**
+### 📁 **[Pyrat](./Pyrat)**
 - Platform: TryHackMe
 - Focus: Remote Code Execution (RCE) in a custom Python service
 - Skills Practiced: Custom TCP service enumeration, Python RCE exploitation, Git history analysis, endpoint fuzzing, password spraying, privilege escalation to root
