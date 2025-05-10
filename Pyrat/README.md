@@ -312,7 +312,7 @@ Password spraying succeeded, and I gained root access. The final flag was locate
 
 ![image/image.png](image/images%205.png)
 
-![image/image.png](image/images_6.png)
+![images/image.png](images/image%206.png)
 
 # Learning/Key takeaways
 
