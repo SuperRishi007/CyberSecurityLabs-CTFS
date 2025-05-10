@@ -24,10 +24,10 @@ Each folder in this repo is a self-contained lab focused on a specific concept o
 - Tools Used: `cewl`, `hydra`, `nmap`, `telnet`, `msfvenom`, `Metasploit`, `Windows command-line tools`
 
 ###📁 **[Pyrat](./Pyrat)**
-Platform: TryHackMe
-Focus: Remote Code Execution (RCE) in a custom Python service
-Skills Practiced: Custom TCP service enumeration, Python RCE exploitation, Git history analysis, endpoint fuzzing, password spraying, privilege escalation to root
-Tools Used: 'nmap', 'netcat', 'curl', 'LinPEAS', 'git', custom 'Python' scripts for fuzzing and spraying
+- Platform: TryHackMe
+- Focus: Remote Code Execution (RCE) in a custom Python service
+- Skills Practiced: Custom TCP service enumeration, Python RCE exploitation, Git history analysis, endpoint fuzzing, password spraying, privilege escalation to root
+-Tools Used: 'nmap', 'netcat', 'curl', 'LinPEAS', 'git', custom 'Python' scripts for fuzzing and spraying
 
 
 - *(More labs coming soon as I continue learning!)*
