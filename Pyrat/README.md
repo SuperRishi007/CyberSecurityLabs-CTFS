@@ -310,9 +310,9 @@ fuzz_pass(pass_wordlist)
 
 Password spraying succeeded, and I gained root access. The final flag was located.
 
-![image/images.png](image/images%205.png)
+![image/image.png](image/image%205.png)
 
-![image/images.png](image/images%206.png)
+![image/image.png](image/image%206.png)
 
 # Learning/Key takeaways
 
