@@ -127,15 +127,15 @@ python3 -m http.server 80
 
 and on the shell i sed the following commands
 
-![image.png](image/images.png)
+![image.png](image/image.png)
 
 ## Git directory found via linpeas
 
-![images/images.png](images/images%201.png)
+![images/images.png](images/image%201.png)
 
 After looking through the directory, my suspicions were confirmed—I found a password for the user ‘think.’ Hopefully, he reuses his passwords, allowing me to access his account through this.
 
-![images/images.png](images/images%202.png)
+![images/images.png](images/image%202.png)
 
 ## User Think Credentials obtained.
 
@@ -143,7 +143,7 @@ Using the password, I switched to user `think` and retrieved the user flag.
 
 : This made me realize just how useful the introduction was. At first, it seemed obscure, but rereading it felt like solving a puzzle—uncovering clues as if I were in a mystery novel. I feel like Sherlock lol!
 
-![images/images.png](images/images%203.png)
+![images/images.png](images/image%203.png)
 
 # Enumeration to a older version of the application
 
@@ -254,7 +254,7 @@ fuzz_endpoint(wordlist)
 
 This confirmed that `admin` is a valid endpoint, prompting for a password.
 
-![images/images.png](images/images%204.png)
+![images/images.png](images/image%204.png)
 
 ## Custom Python Script for Password Spaying
 
@@ -310,7 +310,7 @@ fuzz_pass(pass_wordlist)
 
 Password spraying succeeded, and I gained root access. The final flag was located.
 
-![images/image.png](images/images%205.png)
+![images/image.png](images/image%205.png)
 
 ![images/image.png](images/image%206.png)
 
