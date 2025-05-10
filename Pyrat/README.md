@@ -10,8 +10,8 @@ Pyrat receives a curious response from an HTTP server, which leads to a potentia
 
 Things we can guess from this:
 
-1. ~~We will be using/developing a python script to get a reverse shell into the HTTP server.~~ 
-2. ~~From the reverse shell we will be able to get into the directories and get access to creds along with app meta data~~
+1. We will be using/developing a python script to get a reverse shell into the HTTP server.
+2. From the reverse shell we will be able to get into the directories and get access to creds along with app meta data
 3. We will need to develop another script to explore other endpoints connected. 
 4. We will need to Fuzz passwords. 
 
@@ -127,15 +127,15 @@ python3 -m http.server 80
 
 and on the shell i sed the following commands
 
-![image.png](image.png)
+![image.png](image/images.png)
 
 ## Git directory found via linpeas
 
-![image.png](image%201.png)
+![image/images.png](image/images%201.png)
 
 After looking through the directory, my suspicions were confirmed—I found a password for the user ‘think.’ Hopefully, he reuses his passwords, allowing me to access his account through this.
 
-![image.png](image%202.png)
+![image/images.png](image/images%202.png)
 
 ## User Think Credentials obtained.
 
@@ -143,7 +143,7 @@ Using the password, I switched to user `think` and retrieved the user flag.
 
 : This made me realize just how useful the introduction was. At first, it seemed obscure, but rereading it felt like solving a puzzle—uncovering clues as if I were in a mystery novel. I feel like Sherlock lol!
 
-![image.png](image%203.png)
+![image/images.png](image/images%203.png)
 
 # Enumeration to a older version of the application
 
@@ -254,7 +254,7 @@ fuzz_endpoint(wordlist)
 
 This confirmed that `admin` is a valid endpoint, prompting for a password.
 
-![image.png](image%204.png)
+![image/images.png](image/images%204.png)
 
 ## Custom Python Script for Password Spaying
 
@@ -310,9 +310,9 @@ fuzz_pass(pass_wordlist)
 
 Password spraying succeeded, and I gained root access. The final flag was located.
 
-![image.png](image%205.png)
+![image/images.png](image/images%205.png)
 
-![image.png](image%206.png)
+![image/images.png](image/images%206.png)
 
 # Learning/Key takeaways
 
