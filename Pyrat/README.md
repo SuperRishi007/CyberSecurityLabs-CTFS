@@ -127,7 +127,7 @@ python3 -m http.server 80
 
 and on the shell i sed the following commands
 
-![images/image.png](image/image.png)
+![images/image.png](images/image.png)
 
 ## Git directory found via linpeas
 
