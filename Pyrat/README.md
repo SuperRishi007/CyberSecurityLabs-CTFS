@@ -98,7 +98,7 @@ import os
 └─$
 ```
 
-- we can we see are able to run a python on the machine, due to the invalid syntax return
+- we can are able to run a python on the machine, due to the invalid syntax return
 
 # Initial Exploition
 
@@ -141,7 +141,7 @@ After looking through the directory, my suspicions were confirmed—I found a pa
 
 Using the password, I switched to user `think` and retrieved the user flag.
 
-: This made me realize just how useful the introduction was. At first, it seemed obscure, but rereading it felt like solving a puzzle—uncovering clues as if I were in a mystery novel. I feel like Sherlock lol!
+: This made me realize just how useful the introduction was. At first, it seemed obscure, but rereading it felt like solving a puzzle—uncovering clues as if I were in a mystery novel. I felt like Sherlock lol!
 
 ![images/images.png](images/image%203.png)
 
@@ -201,8 +201,8 @@ index 0000000..ce425cf
 ### Custom App Requirments
 
 1. Loop through a list of possible parameters
-2. tell me if the parameter is correct
-3. send the request to the IP on port 8000
+2. Tell me if the parameter is correct
+3. Send the request to the IP on port 8000
 
 ## Custom Python Script to fuzz for the endpoint
 
