@@ -100,7 +100,7 @@ import os
 
 - we can we see are able to run a python on the machine, due to the invalid syntax return
 
-# Initial Exploitio
+# Initial Exploition
 
 ```bash
 
