@@ -2,9 +2,9 @@
 
 # Overview:
 
-This TryHackMe room, *SilverPlatter*, helped reinforce the importance of solid enumeration and not overlooking uncommon ports or services. The box involved a mix of web and SSH access, and I got hands-on practice with tools like rustscan, dirsearch, and cewl to gather intel.
+This TryHackMe room, SilverPlatter, helped reinforce the importance of solid enumeration and not overlooking uncommon ports or services. The box involved a mix of web and SSH access, and I got hands-on practice with tools like rustscan, dirsearch, and cewl to gather intel.
 
-It also introduced me to *Silverpeas*, a platform I hadn’t worked with before, which added a nice layer of realism and taught me how to deal with unfamiliar web apps in a pentesting context.
+It also introduced me to Silverpeas, a platform I hadn’t worked with before, which added a nice layer of realism and taught me how to deal with unfamiliar web apps in a pentesting context.
 
 # Enumeration
 
