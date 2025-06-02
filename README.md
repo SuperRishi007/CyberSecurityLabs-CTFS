@@ -46,6 +46,8 @@ Each folder in this repo is a self-contained lab focused on a specific concept o
 
 This is an active learning project—expect updates, improvements, and new labs regularly. Feedback and suggestions are always welcome!
 
+- Ledger (THM)
+- Injectics (THM)
 ---
 
 ## 📫✉️ Connect with Me
